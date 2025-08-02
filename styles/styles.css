@@ -89,10 +89,8 @@
     justify-content: center;
     align-items: center;
     gap: 80px;
-    flex-wrap: wrap; /* Allow logos to wrap to the next line if needed*/
-}
    
-
+}
    
 
 
@@ -122,6 +120,10 @@
     display: flex;
     flex-direction: column-reverse;
     gap: 20px;
+  }
+  .logos{
+    display: flex;
+    flex-wrap: wrap;
   }
   
 }
