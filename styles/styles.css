@@ -129,6 +129,22 @@
   margin-bottom: 10px;
 }
 
+/* last part */
+.last-part{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+  gap: 100px;
+}
+.last-title{
+  max-width: 610px;
+}
+.title1{
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
 
 
 
@@ -174,5 +190,10 @@
   align-items: center; 
   margin-right: 0;
 }
+.last-part{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  text-align: center;}
   
 }
